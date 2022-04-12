@@ -1,4 +1,5 @@
 #include "main.h"
+#include "void"
 /**
  *powB - raises the number base to power power
  *@base : the base
