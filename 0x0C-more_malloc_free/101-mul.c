@@ -39,7 +39,8 @@ void _is_zero(char *argv[])
  * @ar: char array.
  * @lar: length of the char array.
  *
- * Return: pointer of a char array. */
+ * Return: pointer of a char array.
+ */
 char *_initialize_array(char *ar, int lar)
 {
 	int i = 0;
@@ -49,6 +50,7 @@ char *_initialize_array(char *ar, int lar)
 	ar[lar] = '\0';
 	return (ar);
 }
+
 /**
  * _checknum - determines length of the number
  * and checks if number is in base 10.
@@ -60,12 +62,14 @@ char *_initialize_array(char *ar, int lar)
 int _checknum(char *argv[], int n)
 {
 	int ln;
+
 	for (ln = 0; argv[n][ln]; ln++)
 		if (!isdigit(argv[n][ln]))
 		{
 			printf("Error\n");
 			exit(98);
 		}
+
 	return (ln);
 }
 
@@ -119,5 +123,4 @@ int main(int argc, char *argv[])
 	}
 	printf("%s\n", nout);
 	return (0);
-
 }
