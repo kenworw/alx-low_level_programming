@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # C - More malloc, free
 
 In this project, I learned about using `exit`, `calloc`, and `realloc` in C.
@@ -74,3 +75,6 @@ the project.
     * If the number of arguments is incorrect or either of `num1` or `num2`
     contains non-digits, the function prints `Error` followed by a new line and
     exits with a status of `98`.
+=======
+#0x0C-more_malloc_free
+>>>>>>> master

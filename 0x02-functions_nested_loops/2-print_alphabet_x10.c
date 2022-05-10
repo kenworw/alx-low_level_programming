@@ -8,6 +8,7 @@
  */
 void print_alphabet_x10(void)
 {
+<<<<<<< HEAD
 	char c = '\0';
 	int n = 10;
 
@@ -17,4 +18,15 @@ void print_alphabet_x10(void)
 			_putchar(c);
 		_putchar('\n');
 	}
+=======
+        char c = '\0';
+        int n = 10;
+
+        while (n--)
+        {
+                for (c = 'a'; c <= 'z'; c++)
+                        _putchar(c);
+                _putchar('\n');
+        }
+>>>>>>> master
 }
